@@ -1,0 +1,18 @@
+.btn-laranja{background-color: orange}
+.btn-laranja:hover{color:white;background-color: red}
+input[type="submit"]:hover{background-color:#999;}
+input[type="submit"]:active{background-color:#333;color: #FFF }
+#menu-mobile{position: absolute;width: 40%;height: 100%;top: 0;left: 0}
+
+
+/*estilizar os inputs*/
+ /*check de imagens*/
+.c-checkbox[data-input=img-checkbox] > input ~ .icon{width: 17px;height:17px;background:url("../images/check.png");background-size: auto 100%;margin-right: 5px}
+.c-checkbox[data-input=img-checkbox] > input:checked ~ .icon{background-position: right}
+ /*check de icones*/
+.c-checkbox[data-input=icon-checkbox] > input ~ .icon{font-size:17px;}
+ /*radio de imagens*/
+.c-radiobutton[data-input=img-radio] > input ~ .icon{width: 17px;height:17px;background:url("../images/radio.png");background-size: auto 100%;margin-right: 5px}
+.c-radiobutton[data-input=img-radio] > input:checked ~ .icon{background-position: right}
+ /*radio de icones*/
+.c-radiobutton > input ~ .icon{font-size:17px;}
